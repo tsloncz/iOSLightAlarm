@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE9BEFF1C549AB6007A11EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BEFE1C549AB6007A11EA /* AppDelegate.swift */; };
+		CDE9BF011C549AB6007A11EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF001C549AB6007A11EA /* ViewController.swift */; };
+		CDE9BF041C549AB6007A11EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF021C549AB6007A11EA /* Main.storyboard */; };
+		CDE9BF061C549AB6007A11EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF051C549AB6007A11EA /* Assets.xcassets */; };
+		CDE9BF091C549AB6007A11EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */; };
+		CDE9BF141C549AB6007A11EA /* LightAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF131C549AB6007A11EA /* LightAlarmTests.swift */; };
+		CDE9BF1F1C549AB6007A11EA /* LightAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF1E1C549AB6007A11EA /* LightAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE9BF101C549AB6007A11EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9BEF31C549AB6007A11EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE9BEFA1C549AB6007A11EA;
+			remoteInfo = LightAlarm;
+		};
+		CDE9BF1B1C549AB6007A11EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE9BEF31C549AB6007A11EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE9BEFA1C549AB6007A11EA;
+			remoteInfo = LightAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDE9BEFB1C549AB6007A11EA /* LightAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE9BEFE1C549AB6007A11EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE9BF001C549AB6007A11EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE9BF031C549AB6007A11EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE9BF051C549AB6007A11EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE9BF081C549AB6007A11EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE9BF0A1C549AB6007A11EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE9BF0F1C549AB6007A11EA /* LightAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE9BF131C549AB6007A11EA /* LightAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAlarmTests.swift; sourceTree = "<group>"; };
+		CDE9BF151C549AB6007A11EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE9BF1A1C549AB6007A11EA /* LightAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE9BF1E1C549AB6007A11EA /* LightAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAlarmUITests.swift; sourceTree = "<group>"; };
+		CDE9BF201C549AB6007A11EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE9BEF81C549AB6007A11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE9BF0C1C549AB6007A11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE9BF171C549AB6007A11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE9BEF21C549AB6007A11EA = {
+			isa = PBXGroup;
+			children = (
+				CDE9BEFD1C549AB6007A11EA /* LightAlarm */,
+				CDE9BF121C549AB6007A11EA /* LightAlarmTests */,
+				CDE9BF1D1C549AB6007A11EA /* LightAlarmUITests */,
+				CDE9BEFC1C549AB6007A11EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE9BEFC1C549AB6007A11EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9BEFB1C549AB6007A11EA /* LightAlarm.app */,
+				CDE9BF0F1C549AB6007A11EA /* LightAlarmTests.xctest */,
+				CDE9BF1A1C549AB6007A11EA /* LightAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE9BEFD1C549AB6007A11EA /* LightAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9BEFE1C549AB6007A11EA /* AppDelegate.swift */,
+				CDE9BF001C549AB6007A11EA /* ViewController.swift */,
+				CDE9BF021C549AB6007A11EA /* Main.storyboard */,
+				CDE9BF051C549AB6007A11EA /* Assets.xcassets */,
+				CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */,
+				CDE9BF0A1C549AB6007A11EA /* Info.plist */,
+			);
+			path = LightAlarm;
+			sourceTree = "<group>";
+		};
+		CDE9BF121C549AB6007A11EA /* LightAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9BF131C549AB6007A11EA /* LightAlarmTests.swift */,
+				CDE9BF151C549AB6007A11EA /* Info.plist */,
+			);
+			path = LightAlarmTests;
+			sourceTree = "<group>";
+		};
+		CDE9BF1D1C549AB6007A11EA /* LightAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9BF1E1C549AB6007A11EA /* LightAlarmUITests.swift */,
+				CDE9BF201C549AB6007A11EA /* Info.plist */,
+			);
+			path = LightAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE9BEFA1C549AB6007A11EA /* LightAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE9BF231C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarm" */;
+			buildPhases = (
+				CDE9BEF71C549AB6007A11EA /* Sources */,
+				CDE9BEF81C549AB6007A11EA /* Frameworks */,
+				CDE9BEF91C549AB6007A11EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightAlarm;
+			productName = LightAlarm;
+			productReference = CDE9BEFB1C549AB6007A11EA /* LightAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE9BF0E1C549AB6007A11EA /* LightAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE9BF261C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarmTests" */;
+			buildPhases = (
+				CDE9BF0B1C549AB6007A11EA /* Sources */,
+				CDE9BF0C1C549AB6007A11EA /* Frameworks */,
+				CDE9BF0D1C549AB6007A11EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE9BF111C549AB6007A11EA /* PBXTargetDependency */,
+			);
+			name = LightAlarmTests;
+			productName = LightAlarmTests;
+			productReference = CDE9BF0F1C549AB6007A11EA /* LightAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE9BF191C549AB6007A11EA /* LightAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE9BF291C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarmUITests" */;
+			buildPhases = (
+				CDE9BF161C549AB6007A11EA /* Sources */,
+				CDE9BF171C549AB6007A11EA /* Frameworks */,
+				CDE9BF181C549AB6007A11EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE9BF1C1C549AB6007A11EA /* PBXTargetDependency */,
+			);
+			name = LightAlarmUITests;
+			productName = LightAlarmUITests;
+			productReference = CDE9BF1A1C549AB6007A11EA /* LightAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE9BEF31C549AB6007A11EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tim Sloncz";
+				TargetAttributes = {
+					CDE9BEFA1C549AB6007A11EA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CDE9BF0E1C549AB6007A11EA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CDE9BEFA1C549AB6007A11EA;
+					};
+					CDE9BF191C549AB6007A11EA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CDE9BEFA1C549AB6007A11EA;
+					};
+				};
+			};
+			buildConfigurationList = CDE9BEF61C549AB6007A11EA /* Build configuration list for PBXProject "LightAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE9BEF21C549AB6007A11EA;
+			productRefGroup = CDE9BEFC1C549AB6007A11EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE9BEFA1C549AB6007A11EA /* LightAlarm */,
+				CDE9BF0E1C549AB6007A11EA /* LightAlarmTests */,
+				CDE9BF191C549AB6007A11EA /* LightAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE9BEF91C549AB6007A11EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE9BF091C549AB6007A11EA /* LaunchScreen.storyboard in Resources */,
+				CDE9BF061C549AB6007A11EA /* Assets.xcassets in Resources */,
+				CDE9BF041C549AB6007A11EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE9BF0D1C549AB6007A11EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE9BF181C549AB6007A11EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE9BEF71C549AB6007A11EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE9BF011C549AB6007A11EA /* ViewController.swift in Sources */,
+				CDE9BEFF1C549AB6007A11EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE9BF0B1C549AB6007A11EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE9BF141C549AB6007A11EA /* LightAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE9BF161C549AB6007A11EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE9BF1F1C549AB6007A11EA /* LightAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE9BF111C549AB6007A11EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE9BEFA1C549AB6007A11EA /* LightAlarm */;
+			targetProxy = CDE9BF101C549AB6007A11EA /* PBXContainerItemProxy */;
+		};
+		CDE9BF1C1C549AB6007A11EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE9BEFA1C549AB6007A11EA /* LightAlarm */;
+			targetProxy = CDE9BF1B1C549AB6007A11EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE9BF021C549AB6007A11EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE9BF031C549AB6007A11EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE9BF081C549AB6007A11EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE9BF211C549AB6007A11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE9BF221C549AB6007A11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE9BF241C549AB6007A11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE9BF251C549AB6007A11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDE9BF271C549AB6007A11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightAlarm.app/LightAlarm";
+			};
+			name = Debug;
+		};
+		CDE9BF281C549AB6007A11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightAlarm.app/LightAlarm";
+			};
+			name = Release;
+		};
+		CDE9BF2A1C549AB6007A11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LightAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightAlarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDE9BF2B1C549AB6007A11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LightAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightAlarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE9BEF61C549AB6007A11EA /* Build configuration list for PBXProject "LightAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE9BF211C549AB6007A11EA /* Debug */,
+				CDE9BF221C549AB6007A11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE9BF231C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE9BF241C549AB6007A11EA /* Debug */,
+				CDE9BF251C549AB6007A11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE9BF261C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE9BF271C549AB6007A11EA /* Debug */,
+				CDE9BF281C549AB6007A11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE9BF291C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE9BF2A1C549AB6007A11EA /* Debug */,
+				CDE9BF2B1C549AB6007A11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE9BEF31C549AB6007A11EA /* Project object */;
+}
