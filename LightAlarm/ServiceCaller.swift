@@ -23,6 +23,8 @@ protocol ServiceCallProtocol {
 class ServiceCaller {
     var delegate: ServiceCallProtocol!
     
+    init(){}
+    
     init(invoker: ServiceCallProtocol) {
         self.delegate = invoker
     }

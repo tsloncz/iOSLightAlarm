@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD343B281C5535AE009A21E3 /* SetAlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD343B271C5535AE009A21E3 /* SetAlarmViewModel.swift */; };
 		CDE9BEFF1C549AB6007A11EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BEFE1C549AB6007A11EA /* AppDelegate.swift */; };
-		CDE9BF011C549AB6007A11EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF001C549AB6007A11EA /* ViewController.swift */; };
+		CDE9BF011C549AB6007A11EA /* SetAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF001C549AB6007A11EA /* SetAlarmViewController.swift */; };
 		CDE9BF041C549AB6007A11EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF021C549AB6007A11EA /* Main.storyboard */; };
 		CDE9BF061C549AB6007A11EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF051C549AB6007A11EA /* Assets.xcassets */; };
 		CDE9BF091C549AB6007A11EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD343B271C5535AE009A21E3 /* SetAlarmViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAlarmViewModel.swift; sourceTree = "<group>"; };
 		CDE9BEFB1C549AB6007A11EA /* LightAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE9BEFE1C549AB6007A11EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDE9BF001C549AB6007A11EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE9BF001C549AB6007A11EA /* SetAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAlarmViewController.swift; sourceTree = "<group>"; };
 		CDE9BF031C549AB6007A11EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDE9BF051C549AB6007A11EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE9BF081C549AB6007A11EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,12 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CDE9BEFE1C549AB6007A11EA /* AppDelegate.swift */,
-				CDE9BF001C549AB6007A11EA /* ViewController.swift */,
+				CDE9BF001C549AB6007A11EA /* SetAlarmViewController.swift */,
 				CDE9BF021C549AB6007A11EA /* Main.storyboard */,
 				CDE9BF051C549AB6007A11EA /* Assets.xcassets */,
 				CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */,
 				CDE9BF0A1C549AB6007A11EA /* Info.plist */,
 				CDE9BF2C1C54A62D007A11EA /* ServiceCaller.swift */,
+				CD343B271C5535AE009A21E3 /* SetAlarmViewModel.swift */,
 			);
 			path = LightAlarm;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE9BF011C549AB6007A11EA /* ViewController.swift in Sources */,
+				CDE9BF011C549AB6007A11EA /* SetAlarmViewController.swift in Sources */,
 				CDE9BEFF1C549AB6007A11EA /* AppDelegate.swift in Sources */,
 				CDE9BF2D1C54A62D007A11EA /* ServiceCaller.swift in Sources */,
+				CD343B281C5535AE009A21E3 /* SetAlarmViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LightAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarm;
@@ -413,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LightAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.booya.LightAlarm;
@@ -487,6 +493,7 @@
 				CDE9BF251C549AB6007A11EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE9BF261C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +502,7 @@
 				CDE9BF281C549AB6007A11EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE9BF291C549AB6007A11EA /* Build configuration list for PBXNativeTarget "LightAlarmUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +511,7 @@
 				CDE9BF2B1C549AB6007A11EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

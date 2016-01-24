@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, ServiceCallProtocol {
+class SetAlarmViewController: UIViewController, ServiceCallProtocol {
 
     // Constants
     let testSetUrl = "http://www.schempc.com/lightAlarm/?setHour=07&setMin=35"
@@ -18,6 +18,10 @@ class ViewController: UIViewController, ServiceCallProtocol {
     // UI outlets
     @IBOutlet weak var dateTimePicker: UIDatePicker!
     @IBOutlet weak var setAlarmButton: UIButton!
+    @IBOutlet weak var alarmTimeLabel: UILabel!
+    
+    let viewModel = SetAlarmViewModel()
+    let timeFormatter = NSDateFormatter()
     
     var serviceCaller: ServiceCaller {
         get {
@@ -29,7 +33,7 @@ class ViewController: UIViewController, ServiceCallProtocol {
         super.viewDidLoad()
         dateTimePicker.datePickerMode = UIDatePickerMode.Time
         serviceCaller.makeCall(getTimeUrl)
-        // Do any additional setup after loading the view, typically from a nib.
+        timeFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,27 +42,25 @@ class ViewController: UIViewController, ServiceCallProtocol {
     }
 
     @IBAction func setAlarmTime(sender: UIButton) {
-        let timeFormatter = NSDateFormatter()
-        timeFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
-        
-        let alarmTime = timeFormatter.stringFromDate(dateTimePicker.date)
-        print(alarmTime)
-        let date = dateTimePicker.date
-        
-        let calendar = NSCalendar.currentCalendar()
-        let components = calendar.components([NSCalendarUnit.Hour, NSCalendarUnit.Minute] , fromDate: date)
-        let hour = components.hour
-        let minute = components.minute
-        
-        let setAlarmUrl = "\(baseAlarmUrl)setHour=\(hour)&setMin=\(minute)"
-//        let setAlarmUrl = testSetUrl
-        serviceCaller.makeCall(setAlarmUrl)
+        viewModel.setAlarm(dateTimePicker.date)
     }
 
 }
 
-extension ViewController {
+// Service Caller Protocol
+extension SetAlarmViewController {
     func updateData(data: NSArray) {
         print("data: \(data)")
+        let timeComponents = data[0]
+        let hour = timeComponents["hour"] as! String
+        let minute = timeComponents["min"] as! String
+        let timeString = "\(hour):\(minute)"
+        alarmTimeLabel.text = timeString
+        // need to run on main thread
+        dispatch_async(dispatch_get_main_queue()) {
+            self.loadViewIfNeeded()
+        }
+        
+        
     }
 }
