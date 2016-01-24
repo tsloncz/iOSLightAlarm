@@ -14,6 +14,7 @@
 		CDE9BF091C549AB6007A11EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */; };
 		CDE9BF141C549AB6007A11EA /* LightAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF131C549AB6007A11EA /* LightAlarmTests.swift */; };
 		CDE9BF1F1C549AB6007A11EA /* LightAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF1E1C549AB6007A11EA /* LightAlarmUITests.swift */; };
+		CDE9BF2D1C54A62D007A11EA /* ServiceCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE9BF2C1C54A62D007A11EA /* ServiceCaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CDE9BF1A1C549AB6007A11EA /* LightAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE9BF1E1C549AB6007A11EA /* LightAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAlarmUITests.swift; sourceTree = "<group>"; };
 		CDE9BF201C549AB6007A11EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE9BF2C1C54A62D007A11EA /* ServiceCaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CDE9BF051C549AB6007A11EA /* Assets.xcassets */,
 				CDE9BF071C549AB6007A11EA /* LaunchScreen.storyboard */,
 				CDE9BF0A1C549AB6007A11EA /* Info.plist */,
+				CDE9BF2C1C54A62D007A11EA /* ServiceCaller.swift */,
 			);
 			path = LightAlarm;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				CDE9BF011C549AB6007A11EA /* ViewController.swift in Sources */,
 				CDE9BEFF1C549AB6007A11EA /* AppDelegate.swift in Sources */,
+				CDE9BF2D1C54A62D007A11EA /* ServiceCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
